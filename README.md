@@ -39,6 +39,7 @@ bash download/raw_data.sh
 To train the prober, we need to create a dataset using the single-step retrieval method and the no-retrieval method. The code for creating this dataset is provided below.
 ```bash
 bash make_dataset.sh
+bash make_dataset_dev.sh
 ```
 
 ## Prober Training
