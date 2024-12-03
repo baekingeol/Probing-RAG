@@ -57,7 +57,6 @@ bash rag.sh
 ```
 
 ## Citation
-If you found the provided code with our paper useful, we kindly request that you cite our work.
 ```BibTex
 @article{baek2024probing,
   title={Probing-RAG: Self-Probing to Guide Language Models in Selective Document Retrieval},
