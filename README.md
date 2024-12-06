@@ -41,6 +41,11 @@ bash download/download.sh
 bash download/raw_data.sh
 ```
 
+## Creating a BM25 Retrieval Index Based on Llama Index
+```bash
+bash make_index.sh
+```
+
 ## Building a Prober Training Dataset
 
 To train the prober, we need to create a dataset using the single-step retrieval method and the no-retrieval method. The code for creating this dataset is provided below.
@@ -48,6 +53,7 @@ To train the prober, we need to create a dataset using the single-step retrieval
 bash make_dataset.sh
 bash make_dataset_dev.sh
 ```
+Please concatenate the generated data to create the training dataset.
 
 ## Prober Training
 You can train the prober using the created dataset. Adjust the ratio of correct to incorrect samples in the training dataset to 0.5, and then execute the code below.
