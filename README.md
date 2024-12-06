@@ -15,6 +15,7 @@ Retrieval-Augmented Generation (RAG) enhances language models by retrieving and 
 ```bash
 conda create -n probing python=3.10
 conda activate probing
+
 pip install git+https://github.com/jbloomAus/SAELens
 pip install torch
 pip install einops
@@ -29,6 +30,9 @@ pip install llama-index
 pip install ftfy
 pip install llama-index-retrievers-bm25
 pip install base58
+pip install spacy
+
+python -m spacy download en_core_web_sm
 ```
 ## Datasets
 You can download datasets as follows:
